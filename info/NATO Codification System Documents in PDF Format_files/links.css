@@ -1,0 +1,28 @@
+﻿a:link { color: blue; text-decoration: none}
+a:active { color: blue; text-decoration: none }
+a:visited { color: blue;  text-decoration: none}
+a:hover { color: black;  text-decoration: underline; background-color: #FFFF80; }
+a.special:link       { color: #FFFFFF; text-decoration: underline}
+a.special:visited    { color: #FFFFFF; text-decoration: underline}
+a.special:active     { color: #FFFFFF; text-decoration: underline}
+a.special:hover 	 { color: black; background-color: #FFFFFE; text-decoration: none }
+p, ul, ol, td 	{ font-size: 69%; }
+ul ul 			{ font-size: 100%; }
+td p 			{ font-size: 100%; }
+table        { background-color: #F5F5F5; color: #000080;}
+body         { background-color: #003366; color: #FFFFFF; font-family: Verdana, Arial, helvetica, sans-serif; }
+td { vertical-align: top;}
+thead        { background-color: #1E5C99; color: #FFFFFF; font-weight: bold }               
+.hintTable   { background-color: #003366; color: #FFFFFF; font-family: Verdana, Arial, helvetica, sans-serif; text-align: Center }
+.td_align_update {
+	vertical-align: middle;
+	font-size:xx-small;
+	text-align:right;
+}
+.tools_text {
+	text-align: justify
+}
+td.totop {
+	text-align: right;
+	color: #000080;
+}

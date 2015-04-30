@@ -1,0 +1,20 @@
+﻿a:link { color: blue; text-decoration: none }
+a:active { color: blue; text-decoration: none }
+a:visited { color: blue; text-decoration: none }
+a:hover { color: black; text-decoration: underline; background-color: #FFFF80 }
+
+table        { font-family: Verdana, Arial, helvetica, sans-serif; font-size: 13px; background-color: #FFFFFF;
+	width: 772px;
+}
+              
+h3           { color: #800000; font-family: Verdana, Arial, helvetica, sans-serif; font-size: 20px;}
+h4           { color: #000080; font-family: Verdana, Arial, helvetica, sans-serif; font-size: 18px;}
+h5           { color: #800080; font-family: Verdana, Arial, helvetica, sans-serif; font-size: 15px;}
+
+ul           { list-style-image: url('../images/diamond_red_bullet3.gif') }
+
+.issued      { font-family: Verdana, Arial, helvetica, sans-serif; font-size: 11px; color: #FFFFFF; text-align: right;}
+.copyright   { font-family: Verdana, Arial, helvetica, sans-serif; font-size: 11px; text-align: center;}
+.table_preface		 { width: 650px;}
+.table_contents		 { width: 700px;}
+.table_nsn		 	 { width: 500px;}
