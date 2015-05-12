@@ -1,0 +1,26 @@
+/* Empty. Add your own CSS if you like */
+
+#search {
+    width:60%;
+    background-color: color:#88a8bd;
+}
+
+.itemlist {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchbar {
+    width:65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search {
+    margin-left:auto;
+    margin-right: auto;
+    width:auto;
+    border:solid;
+    border-color:darkorange
+}
