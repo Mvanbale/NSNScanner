@@ -25,12 +25,26 @@ angular.element(document).ready(function () {
 //initialize angular, and load in the GUI, if there wasn't here you would see the ugly non-angular version of the site while it's loading.
 function startApp() {
     angular.bootstrap(document, ["app"]);
-    var documentMain = document.getElementsByTagName("MAIN")[0];
-    var loadingImage = document.getElementById("loadingImage");
-    documentMain.style.display = "block";
-    loadingImage.style.display = "none";
+Loading(false);
+
 }
 
+
+function Loading(loadingBool) {
+    var documentMain = document.getElementsByTagName("MAIN")[0];
+    var loadingImage = document.getElementById("loadingImage");
+    
+    if (loadingBool) {
+
+        documentMain.style.display = "none";
+        loadingImage.style.display = "block";
+    } else {
+        documentMain.style.display = "block";
+        loadingImage.style.display = "none";
+    }
+
+
+}
 
 
 App.controller("AppController", ["$scope", "$log", "nsnCamera", AppCtrl]);
@@ -42,20 +56,20 @@ function AppCtrl($scope, $log, nsnCamera) {
 
     $scope.search = {
         NatoStockNumber: ''
-    };;
+    };  
 
 
 
 
     $scope.takePicture = function takePicture() {
-        console.log("Start method");
+        Loading(true);
         $scope.getJsonData();
-        console.log(nsnCamera.getPictureImageURL(handlePictureTaken));
+        nsnCamera.getPictureImageURL(handlePictureTaken);
+       
 
 
 
         function handlePictureTaken(pictureURI) {
-            console.log("picture taken handled");
             $scope.EncodedImage = pictureURI;
             $scope.readImage($scope.EncodedImage);
         }
@@ -75,6 +89,7 @@ function AppCtrl($scope, $log, nsnCamera) {
                 foundText = OCRAD(imageData);
                 $scope.search.NatoStockNumber = parseInt(foundText);
                 document.getElementById("outputdiv").style.display = "block";
+                 Loading(false);
 
             }
         )
