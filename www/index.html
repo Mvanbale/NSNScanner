@@ -7,7 +7,6 @@
     <title>NSN Scanner</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <script src="js/ocrad.js"></script>
-    <link rel="stylesheet" href="lib/ionic/css/ionic.css">
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
@@ -22,39 +21,37 @@
     <img id="loadingImage" src="img/loader-larger.gif">
     <main style="display:none; font-family: 'Open Sans', sans-serif;" data-ng-controller="AppController as AppCtrl">
 
-        <ion-header-bar class="bar-positive">
-            <h1 class="title">NSN Scanner</h1>
+        <ion-header-bar class="">
+            <h1 class="">NSN Scanner</h1>
 
         </ion-header-bar>
 
-        <ion-content class="text-center">
-            <p>Neem een foto van de Nato Stock Code</p>
-            <h1 class="button" ng-click="takePicture();"><i class="icon ion-ios-camera"></i></h1>
-            <br>
-            <br>
-            <div style="display:none;" id="outputdiv">
-                <img style="border:solid;" alt="Embedded Image" ng-src="{{EncodedImage}}" width="350px">
-                <h3>Search:</h3>
+        <ion-content>
+            <div class="content-wrapper">
+            <div class="">
                 <div class="searchbar">
-                    <input ng-change="search = search;" type="text" id="search" placeholder="xxxx-xx-xxx-xxxx" ng-model="search.NatoStockNumber" ng-model-options="{debounce: 1000}">
+                    <input class="search" ng-change="search = search;" type="text" id="search" placeholder="xxxx-xx-xxx-xxxx" ng-model="search.NatoStockNumber" ng-model-options="{debounce: 1000}">
+                    <h1 class="camera" ng-click="takePicture();"><i class="icon ion-ios-camera">                                </i><img src="img/camera.svg" height="55" width="55" /></h1>
                 </div>
-                <div class="header">
-                    <br>
+            <div style="display:none;" id="outputdiv">
+                <img style="border:solid;" alt="Embedded Image" ng-src="{{EncodedImage}}" width="0">
 
-
-
-                    <div class="itemlist">
-                        <div class="list list-inset">
-                            <ul class="item  item-text-wrap item-positive" ng-repeat="item in testItem=(items |  filter:search.NatoStockNumber | limitTo: 5) ">
-                            <li class="item item-text-wrap">
+                </div>
+                <div class="">
+                    <div class="">
+                        <div class="">
+                            <ul class="" ng-repeat="item in testItem=(items |  filter:search.NatoStockNumber | limitTo: 5) ">
+                            <li class="">
+                                <!--
                                  <b> Nato stock number:</b>
-                                <h3>{{item.NatoStockNumber}}</h3>
-                                <b> Item name:</b>
-                                <h3>{{item.Name}}</h3>
-                                <b> Item Description:</b>
-                                <h3>{{item.Description}}</h3>
-                                <b> Item price:</b>
-                                <h3>{{item.Price | currency}}</h3>
+-->
+                                <h3 class="natostocknumber" >{{item.NatoStockNumber}}</h3>
+<!--                                <b> Item name:</b>-->
+                                <h3 class="itemname" >{{item.Name}}</h3>
+<!--                                <b> Item Description:</b>-->
+                                <h3 class="itemdescription" >{{item.Description}}</h3>
+<!--                                <b> Item price:</b>-->
+                                <h3 class="itemprice" >{{item.Price | currency}}</h3>
                                 
                                 
                                  </li>
@@ -74,6 +71,7 @@
 
 
                     </div>
+                </div>
                 </div>
         </ion-content>
     </main>
