@@ -25,7 +25,9 @@ angular.element(document).ready(function () {
 //initialize angular, and load in the GUI, if there wasn't here you would see the ugly non-angular version of the site while it's loading.
 function startApp() {
     angular.bootstrap(document, ["app"]);
-Loading(false);
+    
+    Loading(false);
+    
 
 }
 
@@ -33,15 +35,15 @@ Loading(false);
 function Loading(loadingBool) {
     var documentMain = document.getElementsByTagName("MAIN")[0];
     var loadingImage = document.getElementById("loadingImage");
-    
-    if (loadingBool) {
 
+    if (loadingBool) {
         documentMain.style.display = "none";
         loadingImage.style.display = "block";
     } else {
         documentMain.style.display = "block";
         loadingImage.style.display = "none";
     }
+    
 
 
 }
@@ -56,7 +58,7 @@ function AppCtrl($scope, $log, nsnCamera) {
 
     $scope.search = {
         NatoStockNumber: ''
-    };  
+    };
 
 
 
@@ -65,7 +67,7 @@ function AppCtrl($scope, $log, nsnCamera) {
         Loading(true);
         $scope.getJsonData();
         nsnCamera.getPictureImageURL(handlePictureTaken);
-       
+
 
 
 
@@ -89,7 +91,7 @@ function AppCtrl($scope, $log, nsnCamera) {
                 foundText = OCRAD(imageData);
                 $scope.search.NatoStockNumber = parseInt(foundText);
                 document.getElementById("outputdiv").style.display = "block";
-                 Loading(false);
+                Loading(false);
 
             }
         )
@@ -97,6 +99,7 @@ function AppCtrl($scope, $log, nsnCamera) {
     }
 
     $scope.items;
+    
     $scope.getJsonData = function getJsonData() {
         return loadJSON(function (response) {
             // Parse JSON string into object
