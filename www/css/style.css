@@ -40,6 +40,7 @@ ion-header-bar h1 {
     top: 50%;
     transform: translateY(-50%);
     font-size: 3em;
+    color:white;
 }
 
 search:focus, input:focus{
@@ -53,6 +54,10 @@ search:focus, input:focus{
     transform: translateY(-65%);
 }
 
+.cameraimg {
+    fill: #fff;
+}
+
 ul {
     list-style-type: none;
     color: black;
@@ -60,7 +65,7 @@ ul {
 
 li {
     background-color: white;
-    margin-bottom: 20px;
+    margin-top: 20px;
     border:none;
         overflow: auto;
 }

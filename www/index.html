@@ -30,7 +30,9 @@
             <div class="">
                 <div class="searchbar">
                     <input class="search" ng-change="search = search;" type="text" id="search" placeholder="xxxx-xx-xxx-xxxx" ng-model="search.NatoStockNumber" ng-model-options="{debounce: 1000}">
-                    <h1 class="camera" ng-click="takePicture();"><i class="icon ion-ios-camera">                                </i><img src="img/camera.svg" height="55" width="55" /></h1>
+                    <h1 class="camera" ng-click="takePicture();"><i class="icon ion-ios-camera-outline"></i>
+                        <img src="img/camera.svg" height="55" width="55"  class="cameraimg"/>
+</h1>
                 </div>
             <div style="display:none;" id="outputdiv">
 
