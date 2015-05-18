@@ -174,5 +174,5 @@ function nsnMockCamera() {
         getPictureImageURL: function getPictureImageURL(handlePictureTaken) {
             handlePictureTaken("/www/img/MockNSN.jpg");
         }
-    }
+    };
 }

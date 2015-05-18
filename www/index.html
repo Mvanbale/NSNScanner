@@ -33,13 +33,12 @@
                     <h1 class="camera" ng-click="takePicture();"><i class="icon ion-ios-camera">                                </i><img src="img/camera.svg" height="55" width="55" /></h1>
                 </div>
             <div style="display:none;" id="outputdiv">
-                <img style="border:solid;" alt="Embedded Image" ng-src="{{EncodedImage}}" width="0">
 
                 </div>
                 <div class="">
                     <div class="">
                         <div class="">
-                            <ul class="" ng-repeat="item in testItem=(items |  filter:search.NatoStockNumber | limitTo: 5) ">
+                            <ul class="" ng-repeat="item in testItem=(items |  filter:search.NatoStockNumber | limitTo: 10) ">
                             <li class="">
                                 <!--
                                  <b> Nato stock number:</b>
@@ -62,9 +61,9 @@
 -->
                             </ul>
                         </div>
-                        <p ng-show="!testItem.length">No items found.
+                        <p ng-show="!testItem.length&&items">No items found.
                             <br>
-                            <img src="http://i1.kym-cdn.com/photos/images/facebook/000/092/706/Sad_Panda_Chibi_by_mongrelssister.png" alt="">
+                            <img src="http://i1.kym-cdn.com/photos/images/facebook/000/092/706/Sad_Panda_Chibi_by_mongrelssister.png" alt="" style="width:100%">
                         </p>
 
 
