@@ -1,0 +1,180 @@
+﻿/**************/
+/* LAYOUT     */
+/**************/
+
+* {margin: 0; padding: 0;}
+
+body {background: #e5eaee url(/images/bg_page_gradient.jpg) repeat-x;}
+
+#wrapper {width:1004px; margin-right:auto; margin-left:auto; position:relative;}
+
+/* Header */
+#mainHeader { padding-left:14px; height:96px;}
+#mainHeaderNatoLogo {height:86px;}
+
+/*
+#mainHeaderNav { top:0px; right:0px; width:auto; position:absolute; background: url(/images/bg_servicenavi_l.gif); }
+#mainHeaderNav ul.metaNav {height:31px; padding: 4px 4px 0px 4px; list-style-type:none; list-style-image:none;z-index:100; background: url(/images/bg_servicenavi_r.gif); }
+*/
+
+/* Navigation */
+#mainNav { position:relative; margin-left:14px; z-index:200; min-height:41px; background: #0b427a url(/images/bg_navi.gif) no-repeat;}
+#mainNav ul {height:41px; padding: 0 0 0 10px; margin:0; float:left; display:inline; list-style-type:none; position:relative;}
+#mainNav ul li { height:41px; padding:0; margin:0; float:left; display:inline; position:relative; z-index:21 !important;}
+#mainNav ul li:hover { background-color:#09335b;}
+#mainNav ul li a { color:#FFF; line-height:41px; padding:0 20px 0 20px; font-size:1.75em; font-weight:normal; font-family: Times New Roman, Times, Serif; text-decoration:none; vertical-align:middle; display:block; background: url(/images/bg_navi_a.gif) repeat-y top right;}
+#mainNav ul li div { top:41px; width:240px; height:auto; padding:0; margin: 0 0 0 -1px; display:none; position:absolute; z-index:200 !important; background-color:#09335b !important; }
+#mainNav ul li div ul { left:0px; height:auto; margin:10px 5px 10px 5px;}
+#mainNav ul li div ul li { width:187px; height:auto; padding: 0 15px 0 20px; margin: 0 0 6px 5px; font-size:1em; font-weight:normal; background:0; background:transparent url(/images/icon_li_ataglance.gif) no-repeat left center; float:left; display:inline;  font-size:1em; font-weight:normal; }
+#mainNav ul li div ul li:hover { padding: 0 15px 0 20px; margin: 0 0 6px 5px; background:0; background:transparent url(/images/icon_li_ataglance.gif) no-repeat left center;}
+#mainNav ul li div ul li a { line-height:1.4em; padding:0 !important; font-family:Verdana, geneva, Sans-Serif; font-size:1em; font-weight:normal; margin:0 !important; float:none; display:inline; background:0;}
+#mainNav ul li div ul li a:hover {text-decoration:underline;padding:0 !important;}
+
+/* Page content */
+
+/* NO PADDING RIGHT; WILL BE APPLIED VIA MARGIN ON COLUMNS */
+#pageContent {padding: 24px 0 18px 42px; background: url(/images/bg_pageBody.gif) repeat-y; min-height:200px;}
+#pageContent.homepage {padding:24px 0 18px 38px;}
+
+/*#pageContent h2 {color:#00438a; font-weight:normal;}*/
+
+/*breadcrumb */
+#breadcrumb { margin-bottom:2em; width:945px; display:block;}
+#breadcrumb a {padding:0 12px 0 20px; background: url(/images/icon_breadcrumb.gif) no-repeat left center; display:inline;}
+
+/*metaNav*/
+#metaNav {background-color:#CCC;}
+
+/* columns */
+.column {float:left; width:304px; margin:0 16px 0 0;}
+.double {width:624px}
+.triple {width:944px;}
+.noMarginRight {margin-right:0px;}
+
+.column h2 {color:#00438a; padding-bottom:0.5em; font-family: Times New Roman, Times, Sans-Serif; font-size:2.1em; font-weight:normal;}
+
+/* boxes */
+.box {margin: 0 0 12px 0;position:relative; }
+.box h2 { text-transform:uppercase; padding: 0 0 10px 0; font-family:Times New Roman, Times, Sans-Serif; font-size:1.3em; display:block; font-weight:bold; color:#000;}
+.box p {padding-bottom:15px}
+.boxContent {padding:10px;}
+
+.box p.bold {font-weight:bold;color:#00438a; }
+.box ul {list-style:none;}
+.box ul li{list-style:none; padding-bottom:10px;}
+
+.box ul.columnList li { float:left; width:100px; display:block;background:transparent url(/images/icon_next.gif) no-repeat left top; padding-left:18px;}
+
+.box ul.nato {padding-left:25px;}
+.box ul.nato li {background:transparent url(/images/icon_next.gif) no-repeat left top; padding-left:18px;}
+.box ul.nato li ul {margin-top:5px;}
+
+.box a.bigLink { min-height:20px; display:block; padding-left: 25px; font-size:1.2em; font-weight:bold; background: url(/images/icon_bigLink.gif) no-repeat;}
+.box a.smallLink {min-height:14px; display:block; padding-left:20px;background: url(/images/icon_link.gif) no-repeat left center;}    
+
+.grayBox { background:#EEE url(/images/gradient_gray.gif) repeat-x;}
+.blueBox {background: #7ab3d4;}
+.lightBlueBox{background: #d8ecf5 url(/images/gradient_blue.gif) repeat-x;}
+.orangeBox {background: #d6830e url(/images/gradient_orange.gif) no-repeat;}
+.orangeBox h2 {padding-left:50px; padding-bottom:15px;}
+.redBox { background: #a93438 url(/images/gradient_red.gif) repeat-x;}
+.redBox h2 {padding-left:50px;padding-bottom:15px;}
+.borderBox {border:1px solid #EEE;}
+
+/* images */ 
+.inlineImgLeft {width:196px; display:inline;float:left; padding:0 20px 5px 0;}
+.inlineImgRight{width:196px; display:inline;float:right; padding:0 0 5px 20px;}
+.inlineImgRight img, .inlineImgLeft img{width:196px;}
+.imgLegend { font-size:0.8em; color:#888; text-align:center;}
+
+/* news items */
+.teaser {border-bottom: 1px solid #cecece;}
+.teaser .inlineImg { width:196px; padding:0 40px 5px 0; display:inline; float:left;}
+.teaser h3 {color:#09c; padding: 0 0 15px 0; font-family:Times New Roman,Times, Sans-Serif; font-size:1.5em; font-weight:normal}
+.teaser .release {color:#828282;}
+.teaser .shortDescription {padding:5px 0 5px 0; font-weight:normal;}
+.teaser .more {background:transparent url(/images/icon_link_more.gif) no-repeat left 1px;display:inline;min-height:20px;padding-left:20px;}
+
+/* list RSS feed */
+
+ul.rss li {padding-left:20px; margin-top:10px; background:url(/images/icon_rss_li.gif) no-repeat; list-style:none;}
+
+/* form */
+
+.formRow { margin-bottom:1em; float:left; clear:both;}
+.formField {padding-right:50px; float:left;}
+.formField .formLabel { line-height:1.5em; font-weight:bold; display:block;}
+.formField .inputText {width:250px; display:block;}
+.formField p { height:15px;}
+.formField .textArea {width:500px;}
+.formField .red {color:red;}
+
+/* Footer */
+#mainFooter {padding:10px 0 10px 204px; min-height:180px;  background: #0a4685 url(/images/bg_footer.png) no-repeat; position: relative;}
+#mainFooter ul {list-style:none; list-style-image:none;}
+#mainFooter a, #subFooter a {color:#9db1c5; display: inline-block;}
+#mainFooter a:hover,#subFooter a:hover {color:#FFF; text-decoration:none;}
+
+#mainFooter ul li {line-height:1.3em; width:160px; padding-left:20px; float:left;}
+#mainFooter ul li a {padding-bottom:0.4em; font-family:Times New Roman, Times, Serif; font-size:1.7em; font-weight:normal}
+/*#mainFooter ul li ul {padding-left:20px;}*/
+#mainFooter ul li ul li { line-height:normal;  width:auto; float:none; background:transparent url(/images/icon_li_ataglance.gif) no-repeat scroll left 5px;}
+#mainFooter ul li ul li a { font-size:1.1em;}
+/*#mainFooter li { line-height:1.3em; width:160px; padding-left:20px; float:left;      padding-bottom:0.4em; font-family:Times New Roman, Times, Serif; font-size:1.7em; font-weight:normal}
+#mainFooter li ul li { width:auto; float:none; background:transparent url(/images/icon_li_ataglance.gif) no-repeat scroll left 5px; }
+#mainFooter li div { line-height:normal; padding-bottom:0.4em; font-family:Times New Roman, Times, Serif; font-size:0.4em; font-weight:normal}
+/*#mainFooter ul.level1 {float:left;}*/
+
+#subFooter{ height:39px; padding: 10px 10px 10px 44px; position:relative;background: #E5EAEE url(/images/bg_subfooter.png) no-repeat;}
+#subFooter p { color:#FFF; }
+
+/**************/
+/* TYPOGRAPHY */
+/**************/
+html { font-size: 70%; }
+body {
+    font-family:Verdana,Geneva,sans-serif;
+    font-size:1em;
+    font-size-adjust:none;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:normal;
+    text-align:left;
+}
+
+/* LINKS */
+a, a:link, a:visited, a:hover, a:focus, a:active { text-decoration: none; color: #09c; }
+a:hover, a:focus, a:active { text-decoration: underline; }
+.footnote, .footnote p { color:#666666; font-size: 0.81em; }
+a img {border-style:none;}
+/* END LINKS */
+
+
+
+/**************/
+/* TOOLS      */
+/**************/
+.cf:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+/* Workaround for different IE-Versions */
+/*
+** IE5.x/Mac - x
+** IE7 - x
+*/
+.cf { 
+    display: inline-block; 
+}
+/*
+** IE5.x/Win - x
+** IE6 - x
+*/
+/* Hides from IE-mac \*/
+* html .cf { height: 1%; }
+.cf { display: block; }
+/* End hide from IE-mac */

@@ -1,0 +1,972 @@
+/* Name: Style sheet for general pages 
+/*  Author: Michael Small
+/*  Date: 4/09/2008
+/*  Function:FLIS
+/*  Name:flis.css
+/*  Comments:
+/****************************************************/
+body  {
+	/* 'background : #FFFFFF url("http"); */
+	/* background-color : #FFFFFF; */
+	line-height : 1;
+ 	/*scrollbar-base-color: #F5B825; /*  orange  */  
+    	/* scrollbar-base-color: #000000;  */
+}
+
+
+/*-----------------------------------------------------*\
+ * Footer added from new dlis_style2.css
+\*-----------------------------------------------------*/
+
+.PageFooter
+{
+	background-color: #336699;
+	/*background-color: #000066;*/
+	color: #FFFFFF;
+}
+
+
+td 
+
+{
+
+font-family: Arial;
+
+font-style: normal;
+
+font-size: 10pt;
+
+color: #000000;
+
+}
+
+
+/*-----------------------------------------------------*\
+ * Link Classes
+\*-----------------------------------------------------*/
+
+
+A:Visited  {
+	/*color: #191970;*/
+	color: Blue;
+	text-decoration; underline: ;
+}
+
+A:link  {
+	color: Blue;
+	text-decoration; underline;
+}
+
+A:Active  {
+	/*color: #9C319C;*/
+	color: Blue;
+	text-decoration; underline: ;
+}
+
+A:Hover  {
+	color: #4041FF;
+	text-decoration; underline;
+}
+
+.company  {
+	color : #E7E8D1;
+	background-color : #4B1C6D;
+	font-size : 13pt;
+	font-weight : bold;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.company2  {
+	color : Black;
+	background-color : #E8E2CF;
+	font-size : -1pt;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.companydetail  {
+	color : #1B007F;
+	background-color : #FFFFFF;
+	font-size : 13pt;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.companydetail2  {
+	
+	color : #000000;
+	background-color : #DBDBDB;
+	font-size : 13pt;
+	font-weight : bold;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+		
+}
+
+.companydetail3  {
+	
+	color : #34D010;
+	background-color : #EAECDB;
+	font-size : 13pt;
+	font-weight : bold;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+		
+}
+
+/*-----------------------------------------------------*\
+ * Box Classes
+\*-----------------------------------------------------*/
+
+.box_small {
+	border: 1pt solid #999999;
+	/*background-color: #B9CEDF;*/
+	/*background-color: #D6E2EB;*/
+	background-color: #EBF0F4;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font: 10pt;
+	/*color: #009900; */
+	font-weight: normal;
+	/*background: url(../images/Slice_08_light.jpg);*/
+}
+
+.Home_Button {
+	border: 1pt ridge Black; /*background-color: #B9CEDF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font:10pt;
+	/*background: url(../images/Slice_08_light2.jpg);*/
+	/*color: #FFFFFF;*/
+	background-color:#E4E4E4;
+	height:20pt;
+} 
+
+.box {
+	border: 1pt solid #999999;
+	/*background-color: #B9CEDF;*/
+	/*background-color: #D6E2EB;*/
+	background-color: #EBF0F4;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font: 10pt;
+	/*color: #009900; */
+	font-weight: normal;
+	/*background: url(../images/Slice_08_light.jpg);*/
+}
+
+.box_yellow_highlight {
+	border: 1pt solid #999999;
+	/*background-color: #B9CEDF;*/
+	/*background-color: #D6E2EB;*/
+	background-color:#FFFF71;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font: 10pt;
+	/*color: #009900; */
+	font-weight: inherit;
+	/*background: url(../images/Slice_08_light.jpg);*/
+}
+
+.box_change_notice 
+{
+    width: 500px;
+	border: 1pt solid #999999;
+	/*background-color: #B9CEDF;*/
+	/*background-color: #D6E2EB;*/
+	background-color:#FFFF71;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: smaller;
+	/*color: #009900; */
+	padding 0px 15px 0px 15px;
+	/*background: url(../images/Slice_08_light.jpg);*/
+}
+
+.box_small_1 {
+	border: 1pt ridge Black; /*background-color: #B9CEDF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font: 9pt;
+	background: url(../images/Slice_08_light2.jpg); /*color: #FFFFFF;*/
+}
+ 
+.box_small_2 {
+	border: 1pt ridge Black; /*background-color: #B9CEDF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font:10pt;
+	background: url(../images/Slice_08_light2.jpg);
+	/*color: #FFFFFF;*/
+} 
+ 
+.box_small_2b {
+	border: 1pt solid #999999; /*background-color: #B9CEDF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font:8pt;
+	background: url(../images/Slice_08_light2.jpg);
+	/*color: #FFFFFF;*/
+}  
+ 
+ 
+.box_small_3 {
+	border: 1pt solid #999999; /*background-color: #B9CEDF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font:10pt;
+	background: url(../images/Slice_08.jpg);
+	/*color: #FFFFFF;*/
+} 
+ 
+.box_small_3long {
+	border: 1pt solid #999999; /*background-color: #B9CEDF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font:10pt;
+	font-weight: bold;
+	background: url(../images/Slice_08_light_long.jpg);
+	/*color: #FFFFFF;*/
+} 
+
+.box_small_3_header {
+	border: 1pt solid #999999; /*background-color: #B9CEDF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	font-weight: bold;
+	background: url(../images/Slice_08_light_long.jpg);
+	/*color: #FFFFFF;*/
+}
+
+.box_small_3_header_alt {
+	border: 1pt solid #999999; /*background-color: #B9CEDF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	font-weight: bold;
+	/*background: url(../images/Slice_08_light_long.jpg);*/
+	background: #B8D3E8;
+}
+
+
+
+
+.box_small_3_header_fut 
+{
+	/*Used for Fure view headers */
+	/*border: 1pt solid #999999; /*background-color: #B9CEDF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	font-weight: bold;
+	/*background: url(../images/Slice_08_light_long.jpg);
+	/*color: #FFFFFF;*/
+}
+
+
+
+.box_small_3_header_noback {
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font:10pt;
+
+	
+	/*color: #FFFFFF;*/
+}
+
+
+ .box_purple_pulldown {
+	border: 1pt none #999999;
+	background-color: #BAAFC0;
+	font: x10pt Verdana, Arial, Helvetica, sans-serif;
+}
+
+.box_button {
+	border: 1pt solid #999999;
+	background-color: #CCCCCC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font: x10pt;
+	/*color: #009900; */
+	font-weight: normal;
+}
+
+.box_close {
+	border: 1pt solid Gray;
+	font-size: 8pt;
+	font-family: Verdana,Arial;
+}
+
+/*-----------------------------------------------------*\
+ * Results Classes
+\*-----------------------------------------------------*/
+
+.resultspick1{
+	color : #000000;
+	background-color : #F2F2F2;
+	/*font-size : 10pt; */
+	font-size : 10pt;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	/*background: url(../images/Slice_08_light2.jpg);*/
+}
+
+.resultspickalt1{
+	border: 1pt solid #999999; /*background-color: #B9CEDF;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	/*background: url(../images/Slice_08_light3.jpg); /*color: #FFFFFF;*/
+	background-color : #E7F2F9;
+} 
+
+
+.resultspick1white{
+	color : #000000;
+	background-color : #F2F2F2;
+	/*font-size : 10pt; */
+	font-size : 10pt;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	/*background: url(../images/Slice_08_light2.jpg);*/
+}
+
+ 
+
+
+.resultspickalt2{
+	border: 1pt solid #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+	/*background: url(../images/Slice_08_light_long.jpg);*/
+	background-color : #DCE8F1;
+} 
+
+.ResultsLeftHeader{
+	color : #000000;
+	background-color : #E7E4E4;
+	font-size : 10pt;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	/*background: url(../images/Slice_08_light2.jpg);*/
+}
+
+
+.resultsdetail1  {
+	color : Black;
+	background-color : #CFCFE7;
+	font-size : 10pt;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.resultsdetail2  {
+	color : #000000;
+	background-color : #F2F2F2;
+	font-size : 10pt;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.resultsdetail-head  {
+	color : #1B007F;
+	background-color : #D7D7D7;
+	font-size : 10pt;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.resultsdetail-red  {
+	color : #FF0000;
+	background-color : #F2F2F2;
+	font-size : 10pt;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.resultsheaderaccent{
+	color : #FF0000;
+	background-color : #F2F2F2;
+	font-size : 10pt;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+.ResultsDetailHeadAccent{
+	color : #F4C10E;
+	font-size : 8pt;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.details-red  {
+	color : #FF0000;
+	font-size : 10pt;
+	font-weight : normal;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.resultsdetail3  {
+	color : #1B007F;
+	background-color : #E8E2CF;
+	font-size : 10pt;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+.companydetail-w {
+	
+	color : #491478;
+	background-color : #FFFFFF;
+	font-size : 13pt;
+	font-weight : bold;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+		
+}
+
+.companydetail2b  {
+	
+	color : #491478;
+	background-color : #EAECDB;
+	font-size : 13pt;
+	font-weight : normal;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+		
+}
+
+.companybid  {
+	color : #000040;
+	background-color : #EDEAE3;
+	font-size : 9pt;
+	font-weight : normal;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.localtime {
+	color : #1B007F;
+	background-color : #FFFFFF;
+	font-size : 11pt;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.standout  {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 14pt;
+	color : #DC143C;
+	font-weight : bold;
+	background-color : #EAECDB;
+}
+
+.searchbanner  {
+	color : #E7E8D1;
+	background-color : #1B007F;
+	font-size : 15pt;
+	font-weight : bold;
+	font-style : oblique;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.searchagain  {
+	color : #E7E8D1;
+	background-color : #1B007F;
+	font-size : 18pt;
+	font-weight : bold;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.data  {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 15pt;
+	color : #3366CC;
+	font-weight : bold;
+	background-color : #EAECDB;
+}
+
+.data2  {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 15pt;
+	color : #3366CC;
+	font-weight : bold;
+}
+
+P  {}
+
+H1  {}
+
+H2  {}
+
+H3  {}
+
+A  {}
+
+
+boxheight  {
+	border-style : solid;
+	border-width : thick;
+	font-family : Verdana;
+	font-size : 8pt;
+}
+
+.bidformheader  {
+	color: #E7E8D1;
+	
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+.clsForm {
+	background-color : #C8E4FE;
+}
+
+.clsFormBorder {
+	background-color : #C8E4FE;
+	border : thin solid #003060;
+}
+
+.Paragraph { color : #1B007F; background-color : #FFFFFF; font-size : 13pt; font-weight : normal; font-family : Verdana, Arial, Helvetica, sans-serif; }
+
+.InstructionText {
+color : #1B007F; 
+font-size : 10pt; 
+font-weight : normal; 
+font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.InstructionTextBlack {
+color : #000000; 
+font-size : 10pt; 
+font-weight : normal; 
+font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.InstructionTextBold {
+	color : #000000;
+	font-size : 9pt;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	line-height: 13pt;
+}
+
+
+.InstructionTextBold2 {
+	color : #000066;
+	font-size : 11pt;
+	font-weight : bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	/*line-height: 16pt;*/
+}
+
+
+.disclaimer {
+	color : #FFFFFF;
+	font-size : 10pt;
+	font-weight : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*-----------------------------------------------------*\
+ * Anchor Classes
+\*-----------------------------------------------------*/
+
+A.LeftNavLinks:link { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 8pt; 
+	color: #FFFFFF; 
+	text-decoration: none;
+	}
+
+A.LeftNavLinks:visited { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #FFFFFF; 
+	text-decoration: none;
+	}
+	
+A.LeftNavLinks:active { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #FFFFFF; 
+	text-decoration: none;
+	}
+	
+A.LeftNavLinks:hover { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #FFFFFF; 
+	text-align: center; 
+	text-decoration: underline;
+	}
+	
+/*-----------------------------------------------------*\
+ * Custom Anchor Classes
+\*-----------------------------------------------------*/
+	
+A.TopNavLinks:link { 
+	font-family: Verdana,Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #000000; 
+	text-decoration: none;
+	}
+	
+A.TopNavLinks:hover { 
+	font-family: Verdana,Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #000000; 
+	text-align: center; 
+	text-decoration: underline;
+	}		
+
+A.TopNavLinks:visited { 
+	font-family: Verdana,Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #000000; 
+	text-align: center; 
+	/*text-decoration: underline;*/
+	}		
+		
+
+	
+A.LinksSmall:link { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #ffffff;
+	}
+	
+	
+A.LinksSmall:visited { 
+	font-family: Arial;  
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #FFFFFF;
+	}
+	
+A.LinksSmall:active { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #FFFFFF;
+	}
+	
+A.LinksSmall:hover { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #FFFFFF;
+	}
+
+
+		
+/*-----------------------------------------------------*\
+ * Page Heading Classes
+\*-----------------------------------------------------*/
+
+.HeaderWhite	{
+
+	font-family: Arial, sans-serif;
+	font-size: 14pt;
+	font-weight: bold; 
+	color: #FFFFFF;
+	}
+
+.Header	{
+
+	font-family: Arial, sans-serif;
+	font-size: 14pt;
+	font-weight: bold; 
+	color: #000066;
+	text-align: left;
+	padding-left: 10pt;
+	
+	}
+	
+.HeaderSmall {  
+
+	font-family: Arial, sans-serif; 
+	font-size: 12pt; 
+	font-weight: bold; 
+	font-style : normal;
+	color: #000066;
+	text-align: left;
+	padding-left: 10pt;
+
+	}
+
+.HeaderSmaller {  
+
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	font-style : italic;
+	color: #990033;
+	text-align: left;
+	padding-left: 10pt;
+
+	}
+	
+	
+.BoxHeader {
+	background-color: #000066;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font: 10pt;
+	font-weight: bold;
+	color: #FFFFFF;	/*background: url(../images/Slice_08.jpg);*/
+}
+
+.BoxHeader1 {
+	/*background-color: #000066;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font: 10pt;
+	font-weight: bold;
+	color: #FFFFFF;	/*background: url(../images/Slice_08.jpg);*/
+}
+ 
+/*-----------------------------------------------------*\
+ * LIST classes
+\*-----------------------------------------------------*/
+	
+.WithLowerRoman { list-style-type: lower-roman }
+.WithLowerAlpha { list-style-type: lower-alpha }
+.WithUpperRoman { list-style-type: upper-roman }
+.WithUpperAlpha { list-style-type: upper-alpha }
+	
+		
+/*-----------------------------------------------------*\
+ * SPAN Misc. classes
+\*-----------------------------------------------------*/
+
+.Search { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-weight: bold;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	}
+	
+	
+.WhiteText { 
+	font-family: Arial; 
+	font-size: 10pt; 
+	color: #FFFFFF;
+	}
+	
+.BlackText { 
+	font-family: Arial; 
+	font-size: 10pt; 
+	color: #000000;
+
+	}	
+	
+.LoginBoxText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	font-weight: normal;
+	}	
+	
+
+.GreyText {  
+
+	font-family: Arial, sans-serif; 
+	font-size: 8pt; 
+	font-weight: normal; 
+	font-style : italic;
+	color: #999999;
+	text-align: left;
+
+	}
+	
+.BodyTextSmall { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 8pt; 
+	color: #000000;
+	}
+
+	
+.RedTextBold { 
+	font-family: Arial; 
+	font-size: 12pt; 
+	color: #FF0000;
+	font-weight: bold;
+	}
+	
+	
+span.copyright { 
+	font-family: Arial; 
+	font-style: italic; 
+	font-size: 8pt; 
+	color: #808080;
+	}
+	
+
+	
+	
+/*-----------------------------------------------------*\
+ * Pretty Information Boxes classes
+\*-----------------------------------------------------*/
+	
+
+/*TH.BoxHeader {  
+
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	color: #FFFFFF; 
+	background-color: #996666;
+	text-align: center;
+	
+	}
+	*/
+.BoxHeaderBackground {  
+
+	background-color: #996666;
+	
+	}
+	
+	
+TH.ErrorBoxHeader {  
+
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	color: #FFFFFF; 
+	background-color: #CC0000;
+	text-align: center;
+	
+	}
+	
+TH.ErrorBoxHeaderBackground {  
+
+	background-color: #CC0000;
+	
+	}
+	
+	
+TD.ErrorHighlightBack {  
+
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	color: #000000; 
+	background-color: #CC0000;
+	text-align: center;
+	
+	}
+	
+TD.ErrorHighlightText {  
+
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	color: #CC0000; 
+	background-color: #FFFFFF;
+	text-align: center;
+	
+	}
+	
+TD.BoldLabel {  
+
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	color: #000000; 
+	background-color: #FFFFFF;
+	text-align: right;
+	
+	}
+	
+		
+
+
+.WhiteTextBold {  
+
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	font-style : normal;
+	color: #FFFFFF;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	padding-right: 3pt;
+	padding-left: 3pt;
+	height: 1.5em;
+
+	}
+
+TD.BlackBar {  
+
+	font-family: Arial, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	font-style : italic;
+	background-color: #000000;
+	text-align: left;
+
+	}
+
+	
+
+A.WhiteLinkL2:link { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #FFFFFF; 
+	text-decoration: none;
+
+	}
+	
+A.WhiteLinkL2:visited { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #FFFFFF; 
+	text-decoration: none;
+
+
+	}
+	
+A.WhiteLinkL2:active { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #FFFFFF; 
+	text-decoration: none;
+
+	}
+	
+A.WhiteLinkL2:hover { 
+	font-family: Arial; 
+	font-style: normal; 
+	font-size: 10pt; 
+	color: #FFFFFF; 
+	text-align: center; 
+	text-decoration: underline;
+
+	}
+		
+/*-----------------------------------------------------*\
+ * Skip Navigation
+\*-----------------------------------------------------*/
+
+#skip a, #skip a:hover, #skip a:visited
+        {
+        position:absolute;
+        left:0px;
+	top:-500px;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	}
+
+	#skip a:active
+	{
+	position:static;
+	width:auto;
+	height:auto;
+	}
+	
