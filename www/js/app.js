@@ -25,7 +25,6 @@ angular.element(document).ready(function () {
 //initialize angular, and load in the GUI, if there wasn't here you would see the ugly non-angular version of the site while it's loading.
 function startApp() {
     angular.bootstrap(document, ["app"]);
-    
     Loading(false);
     
 

@@ -42,9 +42,7 @@
                         <div class="">
                             <ul class="" ng-repeat="item in testItem=(items |  filter:search.NatoStockNumber | limitTo: 10) ">
                             <li class="">
-                                <!--
-                                 <b> Nato stock number:</b>
--->
+
                                 <h3 class="natostocknumber" >{{item.NatoStockNumber}}</h3>
 <!--                                <b> Item name:</b>-->
                                 <h3 class="itemname" >{{item.Name}}</h3>
@@ -55,12 +53,7 @@
                                 
                                 
                                  </li>
-                                <!--
-                        <li class="item item-text-wrap" ng-repeat="(key, val) in item">
-                           <h2> {{key}}:</h2>   <h3 >{{val}}</h3>
-                           
-                        </li>
--->
+
                             </ul>
                         </div>
                         <p ng-show="!testItem.length&&items">No items found.
